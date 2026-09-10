@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Rent Roll | Ontario Landlord Newsletter for Landlords &amp; Property Managers</title>
+<meta name="description" content="The Rent Roll is the free weekly newsletter for Ontario landlords and property managers: LTB updates, Residential Tenancies Act changes, rent increase guidelines, N-form deadlines, market data, and practical property management workflows — minus the legalese.">
+<link rel="canonical" href="https://www.therentroll.ca/">
+<link rel="icon" href="/brand/rentroll-favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/brand/rentroll-mark-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/brand/rentroll-mark-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#1F6B4E">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Rent Roll">
+<meta property="og:title" content="The Rent Roll: Ontario landlord news that doesn't put you to sleep">
+<meta property="og:description" content="LTB updates, RTA changes, rent guidelines and market data for Ontario landlords and property managers. Free, weekly, five minutes.">
+<meta property="og:url" content="https://www.therentroll.ca/">
+<meta property="og:image" content="https://www.therentroll.ca/og-image.png">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Rent Roll: Ontario landlord news that doesn't put you to sleep">
+<meta name="twitter:description" content="LTB updates, RTA changes, rent guidelines and market data for Ontario landlords and property managers. Free, weekly, five minutes.">
+<meta name="geo.region" content="CA-ON">
+<meta name="geo.placename" content="Ontario">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;1,6..72,500&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Organization", "@id": "https://www.therentroll.ca/#org", "name": "The Rent Roll", "url": "https://www.therentroll.ca/", "description": "A free weekly newsletter for Ontario landlords and property managers.", "areaServed": { "@type": "State", "name": "Ontario" } },
+    { "@type": "WebSite", "@id": "https://www.therentroll.ca/#site", "url": "https://www.therentroll.ca/", "name": "The Rent Roll", "inLanguage": "en-CA", "publisher": { "@id": "https://www.therentroll.ca/#org" } },
+    { "@type": "Newsletter", "name": "The Rent Roll", "url": "https://www.therentroll.ca/", "publisher": { "@id": "https://www.therentroll.ca/#org" }, "audience": { "@type": "Audience", "audienceType": "Ontario landlords and property managers" } },
+    { "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "Is The Rent Roll free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Rent Roll is free for Ontario landlords and property managers. Unsubscribe in one click from any issue." } },
+      { "@type": "Question", "name": "Who is The Rent Roll for?", "acceptedAnswer": { "@type": "Answer", "text": "Anyone who owns or manages residential rental property in Ontario, from one condo to a managed building, who needs to stay current on the Residential Tenancies Act and the Landlord and Tenant Board." } },
+      { "@type": "Question", "name": "How often is it sent?", "acceptedAnswer": { "@type": "Answer", "text": "Once a week, plus a short alert when something urgent changes, such as a new rent increase guideline or an LTB rule change." } },
+      { "@type": "Question", "name": "Is this legal advice?", "acceptedAnswer": { "@type": "Answer", "text": "No. The Rent Roll explains Ontario tenancy law and LTB process in plain English. For your specific situation, talk to a licensed paralegal or lawyer." } }
+    ] }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --paper: #F7F8F3;
+    --paper-deep: #EDF1E6;
+    --rule: #CFDCC9;
+    --ink: #172420;
+    --ink-soft: #4E5C55;
+    --green: #1F6B4E;
+    --green-deep: #144A36;
+    --mint: #BFECD3;
+    --highlight: #FFD93D;      /* the highlighter */
+    --red: #D9463B;
+    --white: #FFFFFF;
+    --serif: "Newsreader", Georgia, serif;
+    --sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    --radius: 12px;
+    --pill: 999px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; font-family: var(--sans); font-size: 17px; line-height: 1.6; color: var(--ink); background: var(--paper); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.08; margin: 0; letter-spacing: -0.015em; }
+  h1 { font-size: clamp(2.6rem, 6vw, 4.6rem); }
+  h2 { font-size: clamp(1.9rem, 3.6vw, 2.8rem); }
+  h3 { font-size: 1.4rem; }
+  p { margin: 0 0 1rem; max-width: 62ch; }
+  a { color: var(--green); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; border-radius: 4px; }
+  .wrap { width: min(1120px, calc(100% - 2.5rem)); margin-inline: auto; }
+
+  /* highlighter marks in headlines */
+  mark { background: linear-gradient(transparent 55%, var(--highlight) 55%, var(--highlight) 92%, transparent 92%); color: inherit; padding: 0 .1em; }
+
+  /* Header */
+  .site-header { background: var(--paper); border-bottom: 2px solid var(--ink); }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 70px; }
+  .brand { font-family: var(--serif); font-size: 1.55rem; font-weight: 700; color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: .55rem; }
+  .brand-mark { width: 28px; height: 28px; display: block; flex: none; }
+  .nav { display: flex; gap: 1.5rem; align-items: center; }
+  .nav a { text-decoration: none; color: var(--ink); font-weight: 500; font-size: .95rem; }
+  @media (max-width: 720px) { .nav a:not(.btn) { display: none; } }
+
+  .btn { display: inline-flex; align-items: center; justify-content: center; background: var(--green); color: var(--white) !important; font-family: var(--sans); font-weight: 700; font-size: 1.02rem; padding: .9rem 1.5rem; border: 2px solid var(--ink); border-radius: var(--pill); cursor: pointer; text-decoration: none; white-space: nowrap; box-shadow: 3px 3px 0 var(--ink); transition: transform .12s ease, box-shadow .12s ease, background .12s ease; }
+  .btn:hover { background: var(--green-deep); transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--ink); }
+  .btn:active { transform: translate(2px,2px); box-shadow: 1px 1px 0 var(--ink); }
+  .btn.small { padding: .55rem 1.1rem; font-size: .9rem; box-shadow: 2px 2px 0 var(--ink); }
+
+  /* Ticker */
+  .ticker { background: var(--ink); color: var(--paper); font-size: .9rem; overflow: hidden; white-space: nowrap; padding: .5rem 0; }
+  .ticker span { display: inline-block; padding-right: 3rem; animation: scroll 40s linear infinite; }
+  .ticker b { color: var(--highlight); font-weight: 700; }
+  @keyframes scroll { to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .ticker span { animation: none; } }
+
+  /* Hero */
+  .hero { padding: clamp(3rem, 7vw, 6rem) 0 clamp(3rem, 6vw, 5rem); }
+  .hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+  @media (max-width: 900px) { .hero .wrap { grid-template-columns: 1fr; } }
+  .kicker { display: inline-block; background: var(--mint); border: 2px solid var(--ink); border-radius: var(--pill); padding: .3rem .9rem; font-weight: 700; font-size: .85rem; margin-bottom: 1.2rem; }
+  .hero-copy p.lead { font-size: 1.22rem; color: var(--ink-soft); margin: 1.4rem 0 1.9rem; max-width: 44ch; }
+  .hero-meta { font-size: .92rem; color: var(--ink-soft); margin-top: 1rem; }
+
+  .subscribe-embed { max-width: 540px; margin: 0 0 .2rem; min-height: 56px; }
+  .subscribe-embed iframe { max-width: 100% !important; }
+  .embed-fallback[hidden] { display: none; }
+  .fallback-note { font-size: .82rem; color: var(--ink-soft); margin: .55rem 0 0; }
+  .form-note { font-size: .88rem; color: var(--ink-soft); margin-top: .7rem; }
+
+  /* Ledger */
+  .ledger { background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--mint); padding: 1.4rem 1.6rem 1.2rem 2.6rem; position: relative; font-family: var(--serif); background-image: repeating-linear-gradient(to bottom, transparent 0 39px, var(--rule) 39px 40px); background-position: 0 60px; transform: rotate(-1deg); }
+  @media (max-width: 900px) { .ledger { transform: none; } }
+  .ledger::before { content: ""; position: absolute; top: 0; bottom: 0; left: 1.9rem; width: 2px; background: var(--red); }
+  .ledger-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: .5rem; margin-bottom: .4rem; }
+  .ledger-head strong { font-weight: 700; font-size: 1.1rem; }
+  .ledger-head span { font-family: var(--sans); font-size: .82rem; color: var(--ink-soft); }
+  .ledger table { width: 100%; border-collapse: collapse; }
+  .ledger td { height: 40px; padding: 0 .25rem; vertical-align: middle; font-size: 1.02rem; }
+  .ledger td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; white-space: nowrap; }
+  .ledger td:last-child em { font-style: normal; background: var(--highlight); padding: .05em .35em; border-radius: 4px; }
+  .ledger tr { opacity: 0; transform: translateY(4px); animation: post .45s ease forwards; }
+  .ledger tr:nth-child(1){animation-delay:.15s}.ledger tr:nth-child(2){animation-delay:.3s}.ledger tr:nth-child(3){animation-delay:.45s}.ledger tr:nth-child(4){animation-delay:.6s}.ledger tr:nth-child(5){animation-delay:.75s}.ledger tr:nth-child(6){animation-delay:.9s}
+  @keyframes post { to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .ledger tr { animation: none; opacity: 1; transform: none; } }
+  .ledger-foot { font-family: var(--sans); font-size: .82rem; color: var(--ink-soft); margin-top: .7rem; }
+
+  section { padding: clamp(3rem, 6vw, 5.5rem) 0; }
+  .section-intro { max-width: 62ch; margin-bottom: 2.4rem; }
+  .section-intro p { color: var(--ink-soft); font-size: 1.12rem; margin-top: .9rem; }
+
+  /* Value */
+  .value { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+  @media (max-width: 1050px) { .value { grid-template-columns: repeat(2, 1fr); gap: 2rem; } }
+  @media (max-width: 700px) { .value { grid-template-columns: 1fr; } }
+  .value > div { background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.4rem; }
+  .value > div:nth-child(1) { box-shadow: 5px 5px 0 var(--highlight); }
+  .value > div:nth-child(2) { box-shadow: 5px 5px 0 var(--mint); }
+  .value > div:nth-child(3) { box-shadow: 5px 5px 0 var(--red); }
+  .value > div:nth-child(4) { box-shadow: 5px 5px 0 var(--highlight); }
+  .value .emoji { font-size: 1.8rem; line-height: 1; margin-bottom: .8rem; }
+  .value h3 { margin-bottom: .5rem; }
+  .value p { font-size: 1rem; color: var(--ink-soft); }
+  .value .ex { font-family: var(--serif); font-style: italic; font-size: 1.05rem; color: var(--ink); background: var(--paper-deep); border-radius: 8px; padding: .7rem .9rem; margin: .8rem 0 0; }
+
+  /* Sample */
+  .sample { background: var(--green-deep); color: var(--white); }
+  .sample h2 { color: var(--white); }
+  .sample .section-intro p { color: rgba(255,255,255,.8); }
+  .sample .wrap { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+  @media (max-width: 900px) { .sample .wrap { grid-template-columns: 1fr; } }
+  .sample .btn { background: var(--highlight); color: var(--ink) !important; }
+  .sample .btn:hover { background: #FFE270; }
+  .issue { background: var(--white); color: var(--ink); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.8rem 2rem; font-family: var(--serif); box-shadow: 8px 8px 0 var(--mint); }
+  .issue .issue-head { display: flex; justify-content: space-between; font-family: var(--sans); font-size: .82rem; color: var(--ink-soft); border-bottom: 2px solid var(--ink); padding-bottom: .7rem; margin-bottom: 1rem; }
+  .issue .greeting { font-family: var(--sans); font-weight: 700; font-size: .95rem; margin-bottom: .6rem; }
+  .issue h3 { font-size: 1.55rem; margin-bottom: .8rem; }
+  .issue p { font-size: 1.05rem; line-height: 1.55; max-width: none; }
+  .issue .item { display: grid; grid-template-columns: 1fr auto; gap: 1rem; padding: .6rem 0; border-top: 1px solid var(--rule); font-size: 1rem; }
+  .issue .item span:last-child { color: var(--ink-soft); font-family: var(--sans); font-size: .82rem; white-space: nowrap; }
+  .issue .why { background: var(--highlight); border-radius: 8px; padding: .8rem 1rem; margin-top: 1rem; font-family: var(--sans); font-size: .95rem; font-weight: 500; }
+
+  /* Who */
+  .who { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem 3rem; }
+  @media (max-width: 800px) { .who { grid-template-columns: 1fr; } }
+  .who h3 { margin-bottom: .4rem; }
+  .who p { font-size: 1rem; color: var(--ink-soft); }
+
+  /* Quotes */
+  .readers { background: var(--paper-deep); }
+  .quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  @media (max-width: 800px) { .quotes { grid-template-columns: 1fr; } }
+  blockquote { margin: 0; background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.4rem; font-family: var(--serif); font-size: 1.15rem; line-height: 1.45; }
+  .promise { background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.4rem; }
+  .promise strong { display: block; font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; color: var(--ink); }
+  .promise p { margin: .6rem 0 0; font-size: .95rem; color: var(--ink-soft); }
+  blockquote footer { font-family: var(--sans); font-size: .88rem; color: var(--ink-soft); margin-top: .8rem; }
+
+  /* FAQ */
+  .faq details { border-top: 2px solid var(--rule); padding: 1rem 0; max-width: 70ch; }
+  .faq details:last-child { border-bottom: 2px solid var(--rule); }
+  .faq summary { cursor: pointer; font-family: var(--serif); font-size: 1.3rem; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; font-family: var(--sans); color: var(--green); font-size: 1.5rem; line-height: 1; }
+  .faq details[open] summary::after { content: "–"; }
+  .faq details p { margin-top: .7rem; color: var(--ink-soft); }
+
+  /* Final */
+  .final { background: var(--highlight); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
+  .final h2 { max-width: 20ch; }
+  .final p { color: var(--ink); }
+
+  .site-footer { padding: 2.5rem 0 3rem; font-size: .9rem; color: var(--ink-soft); }
+  .site-footer .wrap { display: grid; grid-template-columns: 1.6fr 1fr; gap: 2rem; }
+  @media (max-width: 800px) { .site-footer .wrap { grid-template-columns: 1fr; } }
+  .site-footer ul { list-style: none; padding: 0; margin: .4rem 0 0; }
+  .site-footer li { margin: .3rem 0; }
+  .site-footer a { color: var(--ink-soft); }
+  .site-footer strong { color: var(--ink); font-weight: 700; }
+  .legal { font-size: .8rem; margin-top: 1.2rem; max-width: 60ch; }
+  .vh { position: absolute; left: -9999px; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="The Rent Roll home"><svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <defs><clipPath id="tsm"><rect width="100" height="100" rx="14.16" ry="14.16"/></clipPath></defs>
+        <rect width="100" height="100" rx="14.16" ry="14.16" fill="#FFD93D"/>
+        <rect width="25" height="100" fill="#D9463B" clip-path="url(#tsm)"/>
+        <rect x="3.54" y="3.54" width="92.92" height="92.92" rx="10.62" ry="10.62" fill="none" stroke="#172420" stroke-width="7.08"/>
+      </svg>The Rent Roll</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#what-you-get">What you get</a>
+      <a href="#sample-issue">Sample issue</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn small" href="#subscribe">Subscribe free</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <span>☕ <b>2026 guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp; ☕ <b>2026 guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp;</span>
+</div>
+
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="kicker">Free · Weekly · 5-minute read</span>
+        <h1 id="hero-title">Ontario landlord news that <mark>doesn't put you to sleep.</mark></h1>
+        <p class="lead">LTB drama, rule changes, rent guidelines and market numbers for Ontario landlords and property managers. Written like a friend who happens to read tribunal decisions for fun.</p>
+
+        <!-- beehiiv embedded subscribe form -->
+        <div class="subscribe-embed" id="subscribe" data-embed>
+          <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="833e0093-2dd7-407d-9804-5cf1f7a803fb"></script>
+          <div class="embed-fallback" hidden>
+            <p class="fallback-note">Our signup form didn't load. Email <a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a> and we'll add you to the list.</p>
+          </div>
+        </div>
+        <p class="form-note">One email a week. No spam, no "webinar" invites, unsubscribe whenever. By subscribing you agree to our <a href="/terms">Terms</a> and <a href="/privacy">Privacy Policy</a>.</p>
+        <p class="hero-meta">Read by landlords and property managers from Windsor to Ottawa (and one guy in Thunder Bay who emails us a lot).</p>
+      </div>
+
+      <figure class="ledger" aria-label="A sample rent roll ledger of current Ontario landlord numbers">
+        <div class="ledger-head"><strong>Ontario, at a glance</strong><span>Week of Sept 7, 2026</span></div>
+        <table><tbody>
+          <tr><td>2026 rent increase guideline</td><td><em>2.1%</em></td></tr>
+          <tr><td>Notice for a guideline increase (N1)</td><td>90 days</td></tr>
+          <tr><td>Earliest termination on an N4 (monthly)</td><td>14 days</td></tr>
+          <tr><td>Notice for landlord's own use (N12)</td><td>60 days</td></tr>
+          <tr><td>Compensation owed with an N12</td><td>1 month's rent</td></tr>
+          <tr><td>Units first occupied after Nov 15, 2018</td><td>Guideline exempt</td></tr>
+        </tbody></table>
+        <figcaption class="ledger-foot">These numbers change. Subscribers hear about it before their tenants do.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="what-you-get" aria-labelledby="value-title">
+    <div class="wrap">
+      <div class="section-intro">
+        <h2 id="value-title">Being an Ontario landlord is hard. <mark>Staying informed shouldn't be.</mark></h2>
+        <p>The rules change, the LTB changes its mind, and somehow you're supposed to know all of it while also fixing a dishwasher. We read everything so you can read one email.</p>
+      </div>
+      <div class="value">
+        <div>
+          <div class="emoji" aria-hidden="true">🗞️</div>
+          <h3>What changed this week</h3>
+          <p>Every Residential Tenancies Act tweak, LTB practice direction, court ruling and municipal by-law that affects your units, translated from legalese into human.</p>
+          <p class="ex">"Toronto's renovictions by-law now covers your triplex. Here's the licence you need before you even think about an N13."</p>
+        </div>
+        <div>
+          <div class="emoji" aria-hidden="true">⚖️</div>
+          <h3>The tea on the LTB</h3>
+          <p>We read the tribunal decisions (yes, all of them). You get the patterns: which N12s get tossed, what adjudicators want in an N4, and how long hearings are really taking.</p>
+          <p class="ex">"Three N12s dismissed last month for the exact same affidavit mistake. Don't be number four."</p>
+        </div>
+        <div>
+          <div class="emoji" aria-hidden="true">📈</div>
+          <h3>Numbers you'll actually use</h3>
+          <p>Rents by city, vacancy rates, mortgage renewals, insurance and tax changes, and the annual guideline the second it drops, with the math already done.</p>
+          <p class="ex">"Guideline is 2.1% for 2026. On a $2,400 unit that's $50.40. Serve by Sept 30 for a Jan 1 bump."</p>
+        </div>
+        <div>
+          <div class="emoji" aria-hidden="true">🧰</div>
+          <h3>The Toolbox</h3>
+          <p>One practical system every week: a workflow, checklist, template or automation that saves you hours. Some weeks it's built for a 60-unit portfolio, some weeks for the guy with a basement suite.</p>
+          <p class="ex">"Set one calendar reminder 100 days before every lease anniversary. That's it. That's the tip that saves your rent increase."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sample-issue" class="sample" aria-labelledby="sample-title">
+    <div class="wrap">
+      <div class="section-intro">
+        <h2 id="sample-title">Here's what lands in your inbox</h2>
+        <p>Five minutes on a Wednesday. Every item tells you what happened, whether it applies to you, and what to do about it. Zero doom-scrolling, zero ads pretending to be advice.</p>
+        <a class="btn" href="#subscribe">Get the next issue</a>
+      </div>
+      <article class="issue" aria-label="Sample issue of The Rent Roll">
+        <div class="issue-head"><span>The Rent Roll · Issue 41</span><span>Wednesday, 6:31 AM</span></div>
+        <p class="greeting">Good morning. ☕ It's guideline-notice season, which means it's also "wait, when does 90 days start?" season. We've got you.</p>
+        <h3>The N12 affidavit mistake that keeps losing at the Board</h3>
+        <p>Adjudicators have tossed a run of own-use applications this summer for one reason: the person moving in signed a declaration instead of a sworn affidavit. Planning an N12 before year end? Here's exactly what the document needs to say and who has to sign it.</p>
+        <div class="item"><span>Ottawa wants to license small landlords</span><span>Ottawa · 1–4 units</span></div>
+        <div class="item"><span>LTB wait times, updated (deep breath)</span><span>Everyone</span></div>
+        <div class="item"><span>Above-guideline increases: what's still allowed</span><span>Pre-2018 buildings</span></div>
+        <div class="item"><span>GTA condo rents, August edition</span><span>Toronto investors</span></div>
+        <div class="item"><span>🧰 Toolbox: the 20-minute filing system</span><span>Small landlords</span></div>
+        <div class="why">📅 Every issue ends with your next 30 days of deadlines, so nothing slips through the cracks (or the mail slot).</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="who" aria-labelledby="who-title">
+    <div class="wrap">
+      <div class="section-intro">
+        <h2 id="who-title">Written for people who actually <mark>own and run</mark> Ontario rentals</h2>
+      </div>
+      <div class="who">
+        <div>
+          <h3>The one-unit landlord</h3>
+          <p>You rent out a condo, a basement, or the house you moved out of. You don't have a paralegal on speed dial, and you really can't afford a mistake. We give you the rules in the order you'll actually need them.</p>
+        </div>
+        <div>
+          <h3>The portfolio investor</h3>
+          <p>You've got a handful of doors across the province and every rule change hits you five times over. We flag what moves your numbers and where the risk is shifting.</p>
+        </div>
+        <div>
+          <h3>The property manager</h3>
+          <p>Your owners assume you already know. We track the Board, the courts and the municipalities so you can answer the question before it lands in your inbox.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="readers" class="readers" aria-labelledby="readers-title">
+    <div class="wrap">
+      <div class="section-intro"><h2 id="readers-title">What you can expect</h2></div>
+      <div class="quotes">
+        <div class="promise"><strong>Every Wednesday, 6:30&nbsp;a.m.</strong><p>One issue a week, in your inbox before the work day starts. When something urgent moves &mdash; a new rent increase guideline, an LTB rule that shifts a deadline &mdash; you get a short alert instead of waiting.</p></div>
+        <div class="promise"><strong>Rules, not rumours</strong><p>Every legal fact is checked against the primary source and linked, whether that's Tribunals Ontario, e-Laws or the Board itself. No screenshots of someone's Facebook comment presented as procedure.</p></div>
+        <div class="promise"><strong>Five minutes, then you're out</strong><p>Around 1,200 words. Each item tells you what changed, whether it applies to you, and where to look next. No ads dressed up as advice, no outrage bait, no filler.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-intro"><h2 id="faq-title">Fair questions</h2></div>
+      <details><summary>Is The Rent Roll free?</summary><p>Yep. Free for Ontario landlords and property managers. Unsubscribe in one click from the bottom of any issue, no guilt trip.</p></details>
+      <details><summary>Who is it for?</summary><p>Anyone who owns or manages residential rental property in Ontario: one condo, a small portfolio, or a whole building. If the Residential Tenancies Act applies to you, so do we.</p></details>
+      <details><summary>How often will you email me?</summary><p>Once a week, plus a short heads-up when something urgent changes, like a new rent increase guideline or an LTB rule that moves a deadline.</p></details>
+      <details><summary>Is this legal advice?</summary><p>No. We explain Ontario tenancy law and Landlord and Tenant Board process in plain English so you can act sooner and ask smarter questions. For your specific situation, talk to a licensed paralegal or lawyer.</p></details>
+      <details><summary>Do you cover cities outside Toronto?</summary><p>Yes. Provincial rules apply everywhere, and we track municipal changes in Toronto, Ottawa, Hamilton, London, Kitchener-Waterloo, Windsor, Mississauga, Brampton and beyond.</p></details>
+    </div>
+  </section>
+
+  <section class="final" aria-labelledby="final-title">
+    <div class="wrap">
+      <h2 id="final-title">Know what changed before it costs you.</h2>
+      <p>Join Ontario landlords and property managers who read The Rent Roll every week. It's free, and it's five minutes.</p>
+      <!-- beehiiv embedded subscribe form (second placement) -->
+      <div class="subscribe-embed" data-embed>
+        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="833e0093-2dd7-407d-9804-5cf1f7a803fb"></script>
+        <div class="embed-fallback" hidden>
+            <p class="fallback-note">Our signup form didn't load. Email <a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a> and we'll add you to the list.</p>
+          </div>
+      </div>
+      <p class="form-note">Free. Weekly. Unsubscribe any time. By subscribing you agree to our <a href="/terms">Terms</a> and <a href="/privacy">Privacy Policy</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <strong>The Rent Roll</strong>
+      <p class="legal">A free weekly newsletter for Ontario landlords and property managers covering the Residential Tenancies Act, the Landlord and Tenant Board, rent increase guidelines, N-form deadlines and rental market data across the province.</p>
+      <p class="legal">General information, not legal advice. Talk to a licensed paralegal or lawyer about your situation. &copy; 2026 The Rent Roll.</p>
+    </div>
+    <div>
+      <strong>Site</strong>
+      <ul>
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // If beehiiv's loader is blocked (ad blocker, corporate network, sandboxed
+  // preview) the embed container stays empty. Reveal a direct link instead so
+  // the primary CTA is never a blank space. Runs once, 2.5s after load.
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      document.querySelectorAll('[data-embed]').forEach(function (box) {
+        var rendered = box.querySelector('iframe, form, input');
+        if (!rendered) {
+          var fb = box.querySelector('.embed-fallback');
+          if (fb) fb.hidden = false;
+        }
+      });
+    }, 2500);
+  });
+</script>
+
+</body>
+</html>

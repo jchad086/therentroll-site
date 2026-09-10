@@ -1,0 +1,15 @@
+{
+  "name": "The Rent Roll",
+  "short_name": "Rent Roll",
+  "description": "A free weekly newsletter for Ontario landlords and property managers.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F7F8F3",
+  "theme_color": "#1F6B4E",
+  "lang": "en-CA",
+  "icons": [
+    { "src": "/brand/rentroll-favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/brand/rentroll-mark-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/brand/rentroll-mark-32.png", "sizes": "32x32", "type": "image/png" }
+  ]
+}

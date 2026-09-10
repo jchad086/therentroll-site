@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | The Rent Roll</title>
+<meta name="description" content="What personal information The Rent Roll collects, why we collect it, who we share it with, how long we keep it, and how to get it deleted. Written under Canada's PIPEDA and CASL.">
+<link rel="canonical" href="https://www.therentroll.ca/privacy">
+<link rel="icon" href="/brand/rentroll-favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/brand/rentroll-mark-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/brand/rentroll-mark-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#1F6B4E">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Rent Roll">
+<meta property="og:title" content="Privacy Policy | The Rent Roll">
+<meta property="og:description" content="What we collect, why, who sees it, and how to get it deleted.">
+<meta property="og:url" content="https://www.therentroll.ca/privacy">
+<meta property="og:image" content="https://www.therentroll.ca/og-image.png">
+<meta property="og:locale" content="en_CA">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;1,6..72,500&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --paper: #F7F8F3; --paper-deep: #EDF1E6; --rule: #CFDCC9;
+    --ink: #172420; --ink-soft: #4E5C55;
+    --green: #1F6B4E; --green-deep: #144A36;
+    --mint: #BFECD3; --highlight: #FFD93D; --red: #D9463B; --white: #FFFFFF;
+    --serif: "Newsreader", Georgia, serif; --sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    --radius: 12px; --pill: 999px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; font-family: var(--sans); font-size: 17px; line-height: 1.65; color: var(--ink); background: var(--paper); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.1; margin: 0; letter-spacing: -0.015em; }
+  h1 { font-size: clamp(2.4rem, 5.5vw, 3.8rem); }
+  h2 { font-size: 1.6rem; margin-top: 2.6rem; margin-bottom: .7rem; }
+  h3 { font-size: 1.12rem; margin-top: 1.6rem; margin-bottom: .4rem; }
+  p, li { max-width: 68ch; }
+  p { margin: 0 0 1rem; }
+  ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--green); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; border-radius: 4px; }
+  .wrap { width: min(1120px, calc(100% - 2.5rem)); margin-inline: auto; }
+  mark { background: linear-gradient(transparent 55%, var(--highlight) 55%, var(--highlight) 92%, transparent 92%); color: inherit; padding: 0 .1em; }
+
+  .site-header { background: var(--paper); border-bottom: 2px solid var(--ink); }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 70px; }
+  .brand { font-family: var(--serif); font-size: 1.55rem; font-weight: 700; color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: .55rem; }
+  .brand-mark { width: 28px; height: 28px; display: block; flex: none; }
+  .nav { display: flex; gap: 1.5rem; align-items: center; }
+  .nav a { text-decoration: none; color: var(--ink); font-weight: 500; font-size: .95rem; }
+  @media (max-width: 720px) { .nav a:not(.btn) { display: none; } }
+  .btn { display: inline-flex; align-items: center; justify-content: center; background: var(--green); color: var(--white) !important; font-weight: 700; font-size: 1.02rem; padding: .9rem 1.5rem; border: 2px solid var(--ink); border-radius: var(--pill); cursor: pointer; text-decoration: none; white-space: nowrap; box-shadow: 3px 3px 0 var(--ink); transition: transform .12s ease, box-shadow .12s ease, background .12s ease; }
+  .btn:hover { background: var(--green-deep); transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--ink); }
+  .btn:active { transform: translate(2px,2px); box-shadow: 1px 1px 0 var(--ink); }
+  .btn.small { padding: .55rem 1.1rem; font-size: .9rem; box-shadow: 2px 2px 0 var(--ink); }
+
+  .page-head { padding: clamp(2.5rem, 6vw, 4.5rem) 0 1.5rem; }
+  .kicker { display: inline-block; background: var(--mint); border: 2px solid var(--ink); border-radius: var(--pill); padding: .3rem .9rem; font-weight: 700; font-size: .85rem; margin-bottom: 1.2rem; }
+  .page-head p.lead { font-size: 1.15rem; color: var(--ink-soft); max-width: 62ch; margin-top: 1.2rem; }
+  .updated { font-size: .9rem; color: var(--ink-soft); margin-top: .6rem; }
+
+  .layout { display: grid; grid-template-columns: 240px 1fr; gap: 3rem; padding-bottom: 4rem; align-items: start; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; gap: 1.5rem; } }
+  .toc { position: sticky; top: 1.5rem; background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: 5px 5px 0 var(--mint); padding: 1.2rem 1.3rem; font-size: .93rem; }
+  @media (max-width: 900px) { .toc { position: static; } }
+  .toc strong { font-family: var(--serif); font-size: 1.1rem; display: block; margin-bottom: .6rem; }
+  .toc ol { list-style: none; counter-reset: toc; padding: 0; margin: 0; }
+  .toc li { counter-increment: toc; margin: .45rem 0; max-width: none; }
+  .toc li a { text-decoration: none; color: var(--ink-soft); }
+  .toc li a:hover, .toc li a:focus-visible { color: var(--green); text-decoration: underline; }
+  .toc li::before { content: counter(toc) ". "; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+
+  .policy h2 { scroll-margin-top: 1.5rem; }
+  .callout { background: var(--highlight); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.3rem 1.5rem; margin: 0 0 2rem; }
+  .callout h2 { margin-top: 0; }
+  .callout ul { margin-bottom: 0; }
+  .callout li { max-width: none; }
+  .note { background: var(--paper-deep); border-radius: 8px; padding: .9rem 1.1rem; font-size: .97rem; }
+  .note p:last-child { margin-bottom: 0; }
+  .policy table { border-collapse: collapse; width: 100%; margin: 1.1rem 0 1.5rem; font-size: .95rem; }
+  .policy th, .policy td { text-align: left; border-bottom: 1px solid var(--rule); padding: .7rem .6rem; vertical-align: top; }
+  .policy th { font-weight: 700; border-bottom: 2px solid var(--ink); }
+  .policy td:first-child { font-weight: 500; }
+  .table-scroll { overflow-x: auto; }
+
+  .cta-band { background: var(--highlight); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: 3rem 0; }
+  .cta-band h2 { margin-top: 0; font-size: clamp(1.7rem, 3vw, 2.3rem); }
+
+  .site-footer { padding: 2.5rem 0 3rem; font-size: .9rem; color: var(--ink-soft); }
+  .site-footer .wrap { display: grid; grid-template-columns: 1.6fr 1fr; gap: 2rem; }
+  @media (max-width: 800px) { .site-footer .wrap { grid-template-columns: 1fr; } }
+  .site-footer ul { list-style: none; padding: 0; margin: .4rem 0 0; }
+  .site-footer li { margin: .3rem 0; }
+  .site-footer a { color: var(--ink-soft); }
+  .site-footer strong { color: var(--ink); font-weight: 700; }
+  .legal { font-size: .8rem; margin-top: 1.2rem; max-width: 60ch; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="The Rent Roll home"><svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <defs><clipPath id="tsm"><rect width="100" height="100" rx="14.16" ry="14.16"/></clipPath></defs>
+        <rect width="100" height="100" rx="14.16" ry="14.16" fill="#FFD93D"/>
+        <rect width="25" height="100" fill="#D9463B" clip-path="url(#tsm)"/>
+        <rect x="3.54" y="3.54" width="92.92" height="92.92" rx="10.62" ry="10.62" fill="none" stroke="#172420" stroke-width="7.08"/>
+      </svg>The Rent Roll</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/#what-you-get">What you get</a>
+      <a href="/#sample-issue">Sample issue</a>
+      <a href="/#faq">FAQ</a>
+      <a class="btn small" href="/#subscribe">Subscribe free</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap page-head">
+    <span class="kicker">Your data</span>
+    <h1>Privacy Policy</h1>
+    <p class="lead">You give us your email address so we can send you a newsletter. That's the whole arrangement. This page explains exactly what we do with it, who else touches it, and how to make us delete it.</p>
+    <p class="updated">Last updated: September 8, 2026 · Effective: September 8, 2026</p>
+  </div>
+
+  <div class="wrap layout">
+    <nav class="toc" aria-label="On this page">
+      <strong>On this page</strong>
+      <ol>
+        <li><a href="#who">Who we are</a></li>
+        <li><a href="#collect">What we collect</a></li>
+        <li><a href="#why">Why we collect it</a></li>
+        <li><a href="#consent">Your consent</a></li>
+        <li><a href="#share">Who we share it with</a></li>
+        <li><a href="#borders">Where your data lives</a></li>
+        <li><a href="#cookies">Cookies and tracking</a></li>
+        <li><a href="#retention">How long we keep it</a></li>
+        <li><a href="#security">How we protect it</a></li>
+        <li><a href="#rights">Your rights</a></li>
+        <li><a href="#breach">If something goes wrong</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact and complaints</a></li>
+      </ol>
+    </nav>
+
+    <div class="policy">
+
+      <section class="callout" aria-label="Summary">
+        <h2>The short version</h2>
+        <ul>
+          <li>We collect your email address, and whether you open and click our emails.</li>
+          <li>We use it to send you The Rent Roll and to figure out which stories land.</li>
+          <li><strong>We have never sold your data and never will.</strong> No list rentals, no data brokers.</li>
+          <li>beehiiv sends the emails on our behalf and stores your address on servers in the United States.</li>
+          <li>Unsubscribe from any issue, or email us and we'll delete you entirely.</li>
+        </ul>
+      </section>
+
+      <h2 id="who">1. Who we are</h2>
+      <p>The Rent Roll is a free weekly email newsletter for Ontario landlords and property managers. For the purposes of Canadian privacy law, we are the organization responsible for the personal information described on this page.</p>
+      <p>This policy is written to meet the requirements of the federal <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) and Canada's Anti-Spam Legislation (CASL). If you live in Quebec, Alberta or British Columbia, your provincial privacy law may give you additional rights, and we'll honour those too.</p>
+      <div class="note">
+        <p>Canada's privacy framework is in the middle of a rewrite. In June 2026 the federal government tabled Bill C-36, which would replace part of PIPEDA with a new Protecting Privacy and Consumer Data Act. It is not law yet. If it passes, we'll update this page.</p>
+      </div>
+
+      <h2 id="collect">2. What we collect</h2>
+      <p>Not much, and nothing you don't hand over or that isn't a normal by-product of sending email.</p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col">What</th><th scope="col">When</th><th scope="col">Required?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Email address</td><td>When you subscribe</td><td>Yes — it's the only way to send you a newsletter</td></tr>
+            <tr><td>Signup source (UTM tags, referring site)</td><td>When you subscribe</td><td>Automatic</td></tr>
+            <tr><td>Opens, clicks, and which issues you read</td><td>Each time we send</td><td>Automatic</td></tr>
+            <tr><td>IP address and approximate region</td><td>When you visit or open an email</td><td>Automatic</td></tr>
+            <tr><td>Browser and device type</td><td>When you visit the site</td><td>Automatic</td></tr>
+            <tr><td>Anything you write to us</td><td>When you reply or email</td><td>Entirely up to you</td></tr>
+            <tr><td>Poll and survey answers</td><td>When you choose to respond</td><td>Optional</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>We do not ask for and do not want your name, phone number, mailing address, property addresses, tenant information, or financial details. Please don't send us tenant names or documents; if you need to share a document for a story, redact it first.</p>
+
+      <h2 id="why">3. Why we collect it</h2>
+      <ul>
+        <li><strong>To send you the newsletter.</strong> The obvious one.</li>
+        <li><strong>To make it better.</strong> Open and click data tells us which stories are useful and which ones we should stop writing. We look at this in aggregate, not to study any one reader.</li>
+        <li><strong>To keep the list clean.</strong> Removing addresses that bounce, and spotting bots and fake signups.</li>
+        <li><strong>To prove consent.</strong> CASL requires us to be able to show when and how you subscribed.</li>
+        <li><strong>To report to advertisers.</strong> If we run a sponsorship, advertisers get aggregate numbers — total subscribers, open rate, click count. Never a list, never an individual address.</li>
+      </ul>
+      <p>We do not build profiles of you, score you, sell your attention to data brokers, or use your personal information to train AI models.</p>
+
+      <h2 id="consent">4. Your consent</h2>
+      <p>Entering your email on our site is express consent under CASL to receive The Rent Roll. Depending on our settings you may need to click a confirmation link before anything is sent, which gives both of us a clear record.</p>
+      <p>You can withdraw consent at any time, for any reason, using the unsubscribe link at the bottom of every issue. It works immediately and we won't email you to ask why. Withdrawing consent doesn't affect anything we lawfully did with your data before you withdrew it.</p>
+
+      <h2 id="share">5. Who we share it with</h2>
+      <p>We share your personal information with a small number of service providers who need it to run the newsletter, and with nobody else for marketing purposes.</p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col">Provider</th><th scope="col">What they do</th><th scope="col">What they see</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>beehiiv</td><td>Runs the signup form, sends the newsletter, stores the subscriber list, tracks opens and clicks</td><td>Your email address and engagement data</td></tr>
+            <tr><td>GitHub Pages (GitHub, Inc.)</td><td>Serves this website as static files</td><td>Your IP address and browser details, in GitHub's own server logs. Those logs are not shared with us.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>These providers are contractually limited to using your information to provide their service to us. We may also disclose personal information where the law requires it, such as a valid court order or a lawful request from a regulator, and in that case we'll tell you unless we're prohibited from doing so.</p>
+      <p>If The Rent Roll is ever sold or merged, subscriber data would transfer to the new owner, who would be bound by this policy until they gave you notice of a new one.</p>
+
+      <h2 id="borders">6. Where your data lives</h2>
+      <p>beehiiv and some of our other providers store and process data on servers in the United States. That means your email address leaves Canada.</p>
+      <p>While it's outside the country, it's subject to the laws of that jurisdiction, and foreign courts, law enforcement and national security authorities may be able to compel access to it under their own laws. This is true of essentially every email platform, but PIPEDA requires us to tell you plainly rather than bury it. If you're not comfortable with that, the honest answer is not to subscribe.</p>
+
+      <h2 id="cookies">7. Cookies and tracking</h2>
+      <h3>On the website</h3>
+      <p>This website is a set of static pages. We set no cookies of our own and we run no analytics, so nothing here is counting your visit. The signup form is embedded from beehiiv and may set its own cookies when you interact with it. We run no advertising trackers, no retargeting pixels and no social media tracking.</p>
+      <p>You can block or delete cookies in your browser settings. The site will still work.</p>
+      <h3>In the emails</h3>
+      <p>Our emails contain a small tracking pixel that tells us whether an issue was opened, and links that record when they're clicked. This is standard newsletter practice and it's how we know what's worth writing.</p>
+      <p>If you'd rather not be counted, turn off image loading in your email client. That stops open tracking. Most clients let you do this per sender.</p>
+
+      <h2 id="retention">8. How long we keep it</h2>
+      <ul>
+        <li><strong>While you're subscribed:</strong> for as long as you keep reading.</li>
+        <li><strong>After you unsubscribe:</strong> we keep your email address on a suppression list so we don't accidentally email you again, and we keep a record of your original consent. CASL requires us to be able to prove consent for three years.</li>
+        <li><strong>Engagement data:</strong> deleted or de-identified within 24 months.</li>
+        <li><strong>Server and analytics logs:</strong> typically 30 to 90 days.</li>
+        <li><strong>Emails you send us:</strong> as long as they're useful, then deleted.</li>
+      </ul>
+      <p>If you ask for full deletion, we remove everything except the minimum record needed to honour your own unsubscribe request.</p>
+
+      <h2 id="security">9. How we protect it</h2>
+      <p>The site is served over HTTPS. Our beehiiv API credentials live in server-side environment variables and never appear in the website's code, so your address is never posted to a third party directly from your browser. Access to the subscriber list is limited to the people who run the newsletter and protected by strong, unique passwords and two-factor authentication.</p>
+      <p>No system is perfectly secure, and we won't pretend otherwise. What we can promise is that we hold as little as possible, which is the only real protection.</p>
+
+      <h2 id="rights">10. Your rights</h2>
+      <p>Under PIPEDA you have the right to:</p>
+      <ul>
+        <li><strong>Know</strong> what personal information we hold about you and what we've done with it.</li>
+        <li><strong>Access</strong> a copy of it.</li>
+        <li><strong>Correct</strong> it if it's wrong.</li>
+        <li><strong>Withdraw consent</strong> and stop receiving the newsletter.</li>
+        <li><strong>Delete</strong> it, subject to the small legal record described above.</li>
+        <li><strong>Complain</strong> to us, and then to the Office of the Privacy Commissioner of Canada.</li>
+      </ul>
+      <p>To exercise any of these, email <a href="mailto:privacy@therentroll.ca">privacy@therentroll.ca</a> from the address you subscribed with. We respond within 30 days, usually much faster, and there's no charge. We may need to confirm it's really you before handing over data.</p>
+
+      <h2 id="breach">11. If something goes wrong</h2>
+      <p>If there's a breach of security safeguards involving your personal information that creates a real risk of significant harm to you, we will report it to the Privacy Commissioner and notify you as soon as feasible, as PIPEDA requires. We'll tell you what happened, what was affected, and what to do about it.</p>
+
+      <h2 id="children">12. Children</h2>
+      <p>The Rent Roll is written for adults who own or manage rental property. It's not directed at children and we don't knowingly collect personal information from anyone under 18. If you believe a minor has subscribed, email us and we'll remove them.</p>
+
+      <h2 id="changes">13. Changes to this policy</h2>
+      <p>We'll update this page when our practices change, and change the date at the top. If a change materially affects how we handle your personal information, we'll tell you in an issue before it takes effect rather than quietly editing the page.</p>
+
+      <h2 id="contact">14. Contact and complaints</h2>
+      <p>Privacy questions, access requests, deletion requests, or complaints:</p>
+      <div class="note">
+        <p><strong>Privacy Officer, The Rent Roll</strong><br>
+        Email: <a href="mailto:privacy@therentroll.ca">privacy@therentroll.ca</a><br>
+        General: <a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a><br>
+        Ontario, Canada</p>
+      </div>
+      <p>If we haven't resolved your concern to your satisfaction, you can complain to the Office of the Privacy Commissioner of Canada at <a href="https://www.priv.gc.ca" rel="noopener">priv.gc.ca</a> or 1-800-282-1376.</p>
+      <p>See also our <a href="/terms">Terms of Service</a>.</p>
+
+    </div>
+  </div>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Now that you know exactly what we do with it</h2>
+      <p>One email address, one newsletter a week, zero funny business.</p>
+      <p><a class="btn" href="/#subscribe">Subscribe free</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <strong>The Rent Roll</strong>
+      <p class="legal">A free weekly newsletter for Ontario landlords and property managers covering the Residential Tenancies Act, the Landlord and Tenant Board, rent increase guidelines, N-form deadlines and rental market data across the province.</p>
+      <p class="legal">General information, not legal advice. Talk to a licensed paralegal or lawyer about your situation. &copy; 2026 The Rent Roll.</p>
+    </div>
+    <div>
+      <strong>Site</strong>
+      <ul>
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
