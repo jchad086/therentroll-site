@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Rent Roll | Ontario Landlord Newsletter for Landlords &amp; Property Managers</title>
-<meta name="description" content="The Rent Roll is the free weekly newsletter for Ontario landlords and property managers: LTB updates, Residential Tenancies Act changes, rent increase guidelines, N-form deadlines, market data, and practical property management workflows — minus the legalese.">
+<title>Ontario Landlord Newsletter, Free Weekly | The Rent Roll</title>
+<meta name="description" content="A free weekly newsletter for Ontario landlords and property managers. Landlord and Tenant Board updates, rent increase guidelines and N-form deadlines.">
 <link rel="canonical" href="https://www.therentroll.ca/">
 <link rel="icon" href="/brand/rentroll-favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="/brand/rentroll-mark-32.png" sizes="32x32">
@@ -14,16 +14,19 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Rent Roll">
-<meta property="og:title" content="The Rent Roll: Ontario landlord news that doesn't put you to sleep">
-<meta property="og:description" content="LTB updates, RTA changes, rent guidelines and market data for Ontario landlords and property managers. Free, weekly, five minutes.">
+<meta property="og:title" content="Ontario landlord news that doesn't put you to sleep">
+<meta property="og:description" content="Landlord and Tenant Board updates, Residential Tenancies Act changes, rent guidelines and market data for Ontario landlords. Free, weekly, five minutes.">
 <meta property="og:url" content="https://www.therentroll.ca/">
 <meta property="og:image" content="https://www.therentroll.ca/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Rent Roll: Ontario landlord news that doesn't put you to sleep.">
 <meta property="og:locale" content="en_CA">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="The Rent Roll: Ontario landlord news that doesn't put you to sleep">
-<meta name="twitter:description" content="LTB updates, RTA changes, rent guidelines and market data for Ontario landlords and property managers. Free, weekly, five minutes.">
-<meta name="geo.region" content="CA-ON">
-<meta name="geo.placename" content="Ontario">
+<meta name="twitter:title" content="Ontario landlord news that doesn't put you to sleep">
+<meta name="twitter:image" content="https://www.therentroll.ca/og-image.png">
+<meta name="twitter:image:alt" content="The Rent Roll: Ontario landlord news that doesn't put you to sleep.">
+<meta name="twitter:description" content="Landlord and Tenant Board updates, Residential Tenancies Act changes, rent guidelines and market data for Ontario landlords. Free, weekly, five minutes.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,15 +36,141 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Organization", "@id": "https://www.therentroll.ca/#org", "name": "The Rent Roll", "url": "https://www.therentroll.ca/", "description": "A free weekly newsletter for Ontario landlords and property managers.", "areaServed": { "@type": "State", "name": "Ontario" } },
-    { "@type": "WebSite", "@id": "https://www.therentroll.ca/#site", "url": "https://www.therentroll.ca/", "name": "The Rent Roll", "inLanguage": "en-CA", "publisher": { "@id": "https://www.therentroll.ca/#org" } },
-    { "@type": "Newsletter", "name": "The Rent Roll", "url": "https://www.therentroll.ca/", "publisher": { "@id": "https://www.therentroll.ca/#org" }, "audience": { "@type": "Audience", "audienceType": "Ontario landlords and property managers" } },
-    { "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "Is The Rent Roll free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Rent Roll is free for Ontario landlords and property managers. Unsubscribe in one click from any issue." } },
-      { "@type": "Question", "name": "Who is The Rent Roll for?", "acceptedAnswer": { "@type": "Answer", "text": "Anyone who owns or manages residential rental property in Ontario, from one condo to a managed building, who needs to stay current on the Residential Tenancies Act and the Landlord and Tenant Board." } },
-      { "@type": "Question", "name": "How often is it sent?", "acceptedAnswer": { "@type": "Answer", "text": "Once a week, plus a short alert when something urgent changes, such as a new rent increase guideline or an LTB rule change." } },
-      { "@type": "Question", "name": "Is this legal advice?", "acceptedAnswer": { "@type": "Answer", "text": "No. The Rent Roll explains Ontario tenancy law and LTB process in plain English. For your specific situation, talk to a licensed paralegal or lawyer." } }
-    ] }
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://www.therentroll.ca/#org",
+      "name": "The Rent Roll",
+      "url": "https://www.therentroll.ca/",
+      "description": "A free weekly newsletter for Ontario landlords and property managers.",
+      "email": "hello@therentroll.ca",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.therentroll.ca/#logo",
+        "url": "https://www.therentroll.ca/brand/rentroll-mark-180.png",
+        "width": 180,
+        "height": 180,
+        "caption": "The Rent Roll"
+      },
+      "image": {
+        "@id": "https://www.therentroll.ca/#primaryimage"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Ontario"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "hello@therentroll.ca",
+        "areaServed": "CA-ON",
+        "availableLanguage": "en"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.therentroll.ca/#site",
+      "url": "https://www.therentroll.ca/",
+      "name": "The Rent Roll",
+      "description": "A free weekly newsletter for Ontario landlords and property managers.",
+      "inLanguage": "en-CA",
+      "publisher": {
+        "@id": "https://www.therentroll.ca/#org"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.therentroll.ca/#primaryimage",
+      "url": "https://www.therentroll.ca/og-image.png",
+      "width": 1200,
+      "height": 630,
+      "caption": "The Rent Roll: Ontario landlord news that doesn't put you to sleep."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.therentroll.ca/#webpage",
+      "url": "https://www.therentroll.ca/",
+      "name": "Ontario Landlord Newsletter, Free Weekly | The Rent Roll",
+      "isPartOf": {
+        "@id": "https://www.therentroll.ca/#site"
+      },
+      "about": {
+        "@id": "https://www.therentroll.ca/#org"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.therentroll.ca/#primaryimage"
+      },
+      "inLanguage": "en-CA",
+      "dateModified": "2026-09-10"
+    },
+    {
+      "@type": "Periodical",
+      "@id": "https://www.therentroll.ca/#newsletter",
+      "name": "The Rent Roll",
+      "url": "https://www.therentroll.ca/",
+      "publisher": {
+        "@id": "https://www.therentroll.ca/#org"
+      },
+      "inLanguage": "en-CA",
+      "isAccessibleForFree": true,
+      "description": "A free weekly newsletter covering the Residential Tenancies Act, the Landlord and Tenant Board, rent increase guidelines and rental market data in Ontario.",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Ontario landlords and property managers",
+        "geographicArea": {
+          "@type": "State",
+          "name": "Ontario"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.therentroll.ca/#faq",
+      "mainEntityOfPage": {
+        "@id": "https://www.therentroll.ca/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is The Rent Roll free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yep. Free for Ontario landlords and property managers. Unsubscribe in one click from the bottom of any issue, no guilt trip."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anyone who owns or manages residential rental property in Ontario: one condo, a small portfolio, or a whole building. If the Residential Tenancies Act applies to you, so do we."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often will you email me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once a week, plus a short heads-up when something urgent changes, like a new rent increase guideline or an LTB rule that moves a deadline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this legal advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We explain Ontario tenancy law and Landlord and Tenant Board process in plain English so you can act sooner and ask smarter questions. For your specific situation, talk to a licensed paralegal or lawyer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you cover cities outside Toronto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Provincial rules apply everywhere, and we track municipal changes in Toronto, Ottawa, Hamilton, London, Kitchener-Waterloo, Windsor, Mississauga, Brampton and beyond."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>
@@ -119,17 +248,18 @@
   .ledger { background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--mint); padding: 1.4rem 1.6rem 1.2rem 2.6rem; position: relative; font-family: var(--serif); background-image: repeating-linear-gradient(to bottom, transparent 0 39px, var(--rule) 39px 40px); background-position: 0 60px; transform: rotate(-1deg); }
   @media (max-width: 900px) { .ledger { transform: none; } }
   .ledger::before { content: ""; position: absolute; top: 0; bottom: 0; left: 1.9rem; width: 2px; background: var(--red); }
-  .ledger-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: .5rem; margin-bottom: .4rem; }
-  .ledger-head strong { font-weight: 700; font-size: 1.1rem; }
+  .ledger-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .2rem .8rem; border-bottom: 2px solid var(--ink); padding-bottom: .5rem; margin-bottom: .4rem; }
+  .ledger-head h2 { font-weight: 700; font-size: 1.1rem; margin: 0; letter-spacing: 0; line-height: 1.2; }
   .ledger-head span { font-family: var(--sans); font-size: .82rem; color: var(--ink-soft); }
   .ledger table { width: 100%; border-collapse: collapse; }
   .ledger td { height: 40px; padding: 0 .25rem; vertical-align: middle; font-size: 1.02rem; }
   .ledger td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; white-space: nowrap; }
   .ledger td:last-child em { font-style: normal; background: var(--highlight); padding: .05em .35em; border-radius: 4px; }
   .ledger tr { opacity: 0; transform: translateY(4px); animation: post .45s ease forwards; }
-  .ledger tr:nth-child(1){animation-delay:.15s}.ledger tr:nth-child(2){animation-delay:.3s}.ledger tr:nth-child(3){animation-delay:.45s}.ledger tr:nth-child(4){animation-delay:.6s}.ledger tr:nth-child(5){animation-delay:.75s}.ledger tr:nth-child(6){animation-delay:.9s}
+  .ledger tr:nth-child(1){animation-delay:.15s}.ledger tr:nth-child(2){animation-delay:.3s}.ledger tr:nth-child(3){animation-delay:.45s}.ledger tr:nth-child(4){animation-delay:.6s}.ledger tr:nth-child(5){animation-delay:.75s}.ledger tr:nth-child(6){animation-delay:.9s}.ledger tr:nth-child(7){animation-delay:1.05s}
   @keyframes post { to { opacity: 1; transform: none; } }
   @media (prefers-reduced-motion: reduce) { .ledger tr { animation: none; opacity: 1; transform: none; } }
+  .chg { font-weight: 700; box-shadow: inset 0 -2px 0 var(--red); }
   .ledger-foot { font-family: var(--sans); font-size: .82rem; color: var(--ink-soft); margin-top: .7rem; }
 
   section { padding: clamp(3rem, 6vw, 5.5rem) 0; }
@@ -179,7 +309,7 @@
   @media (max-width: 800px) { .quotes { grid-template-columns: 1fr; } }
   blockquote { margin: 0; background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.4rem; font-family: var(--serif); font-size: 1.15rem; line-height: 1.45; }
   .promise { background: var(--white); border: 2px solid var(--ink); border-radius: var(--radius); padding: 1.4rem; }
-  .promise strong { display: block; font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; color: var(--ink); }
+  .promise h3 { display: block; margin: 0; font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; color: var(--ink); }
   .promise p { margin: .6rem 0 0; font-size: .95rem; color: var(--ink-soft); }
   blockquote footer { font-family: var(--sans); font-size: .88rem; color: var(--ink-soft); margin-top: .8rem; }
 
@@ -189,6 +319,7 @@
   .faq summary { cursor: pointer; font-family: var(--serif); font-size: 1.3rem; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
   .faq summary::-webkit-details-marker { display: none; }
   .faq summary::after { content: "+"; font-family: var(--sans); color: var(--green); font-size: 1.5rem; line-height: 1; }
+  .faq summary h3 { display: inline; font-size: inherit; font-family: inherit; font-weight: inherit; margin: 0; letter-spacing: inherit; }
   .faq details[open] summary::after { content: "–"; }
   .faq details p { margin-top: .7rem; color: var(--ink-soft); }
 
@@ -228,7 +359,7 @@
 </header>
 
 <div class="ticker" aria-hidden="true">
-  <span>☕ <b>2026 guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp; ☕ <b>2026 guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp;</span>
+  <span>☕ <b>2026 rent increase guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp; ☕ <b>2026 rent increase guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp;</span>
 </div>
 
 <main>
@@ -237,7 +368,7 @@
       <div class="hero-copy">
         <span class="kicker">Free · Weekly · 5-minute read</span>
         <h1 id="hero-title">Ontario landlord news that <mark>doesn't put you to sleep.</mark></h1>
-        <p class="lead">LTB drama, rule changes, rent guidelines and market numbers for Ontario landlords and property managers. Written like a friend who happens to read tribunal decisions for fun.</p>
+        <p class="lead">Landlord and Tenant Board rulings, Residential Tenancies Act changes, rent increase guidelines and market numbers, for Ontario landlords and property managers. Written like a friend who happens to read tribunal decisions for fun.</p>
 
         <!-- beehiiv embedded subscribe form -->
         <div class="subscribe-embed" id="subscribe" data-embed>
@@ -246,21 +377,22 @@
             <p class="fallback-note">Our signup form didn't load. Email <a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a> and we'll add you to the list.</p>
           </div>
         </div>
-        <p class="form-note">One email a week. No spam, no "webinar" invites, unsubscribe whenever. By subscribing you agree to our <a href="/terms/">Terms</a> and <a href="/privacy/">Privacy Policy</a>.</p>
+        <p class="form-note">One email a week. No spam, no "webinar" invites, unsubscribe whenever. By subscribing you agree to our <a href="/terms/">Terms of Service</a> and <a href="/privacy/">Privacy Policy</a>.</p>
         <p class="hero-meta">Read by landlords and property managers from Windsor to Ottawa (and one guy in Thunder Bay who emails us a lot).</p>
       </div>
 
-      <figure class="ledger" aria-label="A sample rent roll ledger of current Ontario landlord numbers">
-        <div class="ledger-head"><strong>Ontario, at a glance</strong><span>Week of Sept 7, 2026</span></div>
+      <figure class="ledger" aria-labelledby="ledger-title">
+        <div class="ledger-head"><h2 id="ledger-title">Ontario landlord numbers</h2><span>Verified <time datetime="2026-09-10">Sept 10, 2026</time></span></div>
         <table><tbody>
           <tr><td>2026 rent increase guideline</td><td><em>2.1%</em></td></tr>
           <tr><td>Notice for a guideline increase (N1)</td><td>90 days</td></tr>
-          <tr><td>Earliest termination on an N4 (monthly)</td><td>14 days</td></tr>
+          <tr><td>Earliest termination on an N4 (monthly)</td><td><b class="chg">14 days</b></td></tr>
           <tr><td>Notice for landlord's own use (N12)</td><td>60 days</td></tr>
-          <tr><td>Compensation owed with an N12</td><td>1 month's rent</td></tr>
+          <tr><td>Compensation owed with an N12</td><td><b class="chg">1 month's rent</b></td></tr>
           <tr><td>Units first occupied after Nov 15, 2018</td><td>Guideline exempt</td></tr>
+          <tr><td>Deadline to request an LTB review</td><td>15 days</td></tr>
         </tbody></table>
-        <figcaption class="ledger-foot">These numbers change. Subscribers hear about it before their tenants do.</figcaption>
+        <figcaption class="ledger-foot">The two underlined figures <a href="/ontario-bill-60-changes/">change on September&nbsp;21</a>. Subscribers get the new numbers the morning they take effect.</figcaption>
       </figure>
     </div>
   </section>
@@ -303,7 +435,7 @@
   <section id="sample-issue" class="sample" aria-labelledby="sample-title">
     <div class="wrap">
       <div class="section-intro">
-        <h2 id="sample-title">Here's what lands in your inbox</h2>
+        <h2 id="sample-title">What's in a typical issue: LTB rulings, rent numbers, deadlines</h2>
         <p>Five minutes on a Wednesday. Every item tells you what happened, whether it applies to you, and what to do about it. Zero doom-scrolling, zero ads pretending to be advice.</p>
         <a class="btn" href="#subscribe">Get the next issue</a>
       </div>
@@ -346,29 +478,29 @@
 
   <section id="readers" class="readers" aria-labelledby="readers-title">
     <div class="wrap">
-      <div class="section-intro"><h2 id="readers-title">What you can expect</h2></div>
+      <div class="section-intro"><h2 id="readers-title">Why Ontario landlords and property managers read it</h2></div>
       <div class="quotes">
-        <div class="promise"><strong>Every Wednesday, 6:30&nbsp;a.m.</strong><p>One issue a week, in your inbox before the work day starts. When something urgent moves &mdash; a new rent increase guideline, an LTB rule that shifts a deadline &mdash; you get a short alert instead of waiting.</p></div>
-        <div class="promise"><strong>Rules, not rumours</strong><p>Every legal fact is checked against the primary source and linked, whether that's Tribunals Ontario, e-Laws or the Board itself. No screenshots of someone's Facebook comment presented as procedure.</p></div>
-        <div class="promise"><strong>Five minutes, then you're out</strong><p>Around 1,200 words. Each item tells you what changed, whether it applies to you, and where to look next. No ads dressed up as advice, no outrage bait, no filler.</p></div>
+        <div class="promise"><h3>Every Wednesday, 6:30&nbsp;a.m.</h3><p>One issue a week, in your inbox before the work day starts. When something urgent moves &mdash; a new rent increase guideline, an LTB rule that shifts a deadline &mdash; you get a short alert instead of waiting.</p></div>
+        <div class="promise"><h3>Rules, not rumours</h3><p>Every legal fact is checked against the primary source and linked, whether that's <a href="https://tribunalsontario.ca/ltb/" rel="noopener">Tribunals Ontario</a>, <a href="https://www.ontario.ca/laws/statute/06r17" rel="noopener">the Residential Tenancies Act on e-Laws</a> or the Board itself. No screenshots of someone's Facebook comment presented as procedure.</p></div>
+        <div class="promise"><h3>Five minutes, then you're out</h3><p>Around 1,200 words. Each item tells you what changed, whether it applies to you, and where to look next. No ads dressed up as advice, no outrage bait, no filler.</p></div>
       </div>
     </div>
   </section>
 
   <section id="faq" class="faq" aria-labelledby="faq-title">
     <div class="wrap">
-      <div class="section-intro"><h2 id="faq-title">Fair questions</h2></div>
-      <details><summary>Is The Rent Roll free?</summary><p>Yep. Free for Ontario landlords and property managers. Unsubscribe in one click from the bottom of any issue, no guilt trip.</p></details>
-      <details><summary>Who is it for?</summary><p>Anyone who owns or manages residential rental property in Ontario: one condo, a small portfolio, or a whole building. If the Residential Tenancies Act applies to you, so do we.</p></details>
-      <details><summary>How often will you email me?</summary><p>Once a week, plus a short heads-up when something urgent changes, like a new rent increase guideline or an LTB rule that moves a deadline.</p></details>
-      <details><summary>Is this legal advice?</summary><p>No. We explain Ontario tenancy law and Landlord and Tenant Board process in plain English so you can act sooner and ask smarter questions. For your specific situation, talk to a licensed paralegal or lawyer.</p></details>
-      <details><summary>Do you cover cities outside Toronto?</summary><p>Yes. Provincial rules apply everywhere, and we track municipal changes in Toronto, Ottawa, Hamilton, London, Kitchener-Waterloo, Windsor, Mississauga, Brampton and beyond.</p></details>
+      <div class="section-intro"><h2 id="faq-title">Fair questions about the newsletter</h2></div>
+      <details><summary><h3>Is The Rent Roll free?</h3></summary><p>Yep. Free for Ontario landlords and property managers. Unsubscribe in one click from the bottom of any issue, no guilt trip.</p></details>
+      <details><summary><h3>Who is it for?</h3></summary><p>Anyone who owns or manages residential rental property in Ontario: one condo, a small portfolio, or a whole building. If the Residential Tenancies Act applies to you, so do we.</p></details>
+      <details><summary><h3>How often will you email me?</h3></summary><p>Once a week, plus a short heads-up when something urgent changes, like a new rent increase guideline or an LTB rule that moves a deadline.</p></details>
+      <details><summary><h3>Is this legal advice?</h3></summary><p>No. We explain Ontario tenancy law and Landlord and Tenant Board process in plain English so you can act sooner and ask smarter questions. For your specific situation, talk to a licensed paralegal or lawyer.</p></details>
+      <details><summary><h3>Do you cover cities outside Toronto?</h3></summary><p>Yes. Provincial rules apply everywhere, and we track municipal changes in Toronto, Ottawa, Hamilton, London, Kitchener-Waterloo, Windsor, Mississauga, Brampton and beyond.</p></details>
     </div>
   </section>
 
   <section class="final" aria-labelledby="final-title">
     <div class="wrap">
-      <h2 id="final-title">Know what changed before it costs you.</h2>
+      <h2 id="final-title">Know what changed in Ontario rental law before it costs you.</h2>
       <p>Join Ontario landlords and property managers who read The Rent Roll every week. It's free, and it's five minutes.</p>
       <!-- beehiiv embedded subscribe form (second placement) -->
       <div class="subscribe-embed" data-embed>
@@ -377,7 +509,7 @@
             <p class="fallback-note">Our signup form didn't load. Email <a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a> and we'll add you to the list.</p>
           </div>
       </div>
-      <p class="form-note">Free. Weekly. Unsubscribe any time. By subscribing you agree to our <a href="/terms/">Terms</a> and <a href="/privacy/">Privacy Policy</a>.</p>
+      <p class="form-note">Free. Weekly. Unsubscribe any time. By subscribing you agree to our <a href="/terms/">Terms of Service</a> and <a href="/privacy/">Privacy Policy</a>.</p>
     </div>
   </section>
 </main>
@@ -392,8 +524,9 @@
     <div>
       <strong>Site</strong>
       <ul>
+        <li><a href="/ontario-bill-60-changes/">Ontario rental law changes, Sept&nbsp;21</a></li>
         <li><a href="/terms/">Terms of Service</a></li>
-        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
         <li><a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a></li>
       </ul>
     </div>

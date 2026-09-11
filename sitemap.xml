@@ -2,17 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.therentroll.ca/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.therentroll.ca/ontario-bill-60-changes/</loc>
+    <lastmod>2026-09-10</lastmod>
   </url>
   <url>
     <loc>https://www.therentroll.ca/terms/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-09-08</lastmod>
   </url>
   <url>
     <loc>https://www.therentroll.ca/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-09-08</lastmod>
   </url>
 </urlset>
