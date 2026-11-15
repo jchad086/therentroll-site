@@ -100,7 +100,7 @@
         "@id": "https://www.therentroll.ca/#primaryimage"
       },
       "inLanguage": "en-CA",
-      "dateModified": "2026-09-10"
+      "dateModified": "2026-11-15"
     },
     {
       "@type": "Periodical",
@@ -256,10 +256,9 @@
   .ledger td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; white-space: nowrap; }
   .ledger td:last-child em { font-style: normal; background: var(--highlight); padding: .05em .35em; border-radius: 4px; }
   .ledger tr { opacity: 0; transform: translateY(4px); animation: post .45s ease forwards; }
-  .ledger tr:nth-child(1){animation-delay:.15s}.ledger tr:nth-child(2){animation-delay:.3s}.ledger tr:nth-child(3){animation-delay:.45s}.ledger tr:nth-child(4){animation-delay:.6s}.ledger tr:nth-child(5){animation-delay:.75s}.ledger tr:nth-child(6){animation-delay:.9s}.ledger tr:nth-child(7){animation-delay:1.05s}
+  .ledger tr:nth-child(1){animation-delay:.15s}.ledger tr:nth-child(2){animation-delay:.3s}.ledger tr:nth-child(3){animation-delay:.45s}.ledger tr:nth-child(4){animation-delay:.6s}.ledger tr:nth-child(5){animation-delay:.75s}.ledger tr:nth-child(6){animation-delay:.9s}.ledger tr:nth-child(7){animation-delay:1.05s}.ledger tr:nth-child(8){animation-delay:1.2s}
   @keyframes post { to { opacity: 1; transform: none; } }
   @media (prefers-reduced-motion: reduce) { .ledger tr { animation: none; opacity: 1; transform: none; } }
-  .chg { font-weight: 700; box-shadow: inset 0 -2px 0 var(--red); }
   .ledger-foot { font-family: var(--sans); font-size: .82rem; color: var(--ink-soft); margin-top: .7rem; }
 
   section { padding: clamp(3rem, 6vw, 5.5rem) 0; }
@@ -359,7 +358,7 @@
 </header>
 
 <div class="ticker" aria-hidden="true">
-  <span>☕ <b>2026 rent increase guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp; ☕ <b>2026 rent increase guideline:</b> 2.1% &nbsp;•&nbsp; <b>N12 notice:</b> 60 days + one month's rent <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>N4 earliest termination:</b> 14 days <i>(changes Sept 21)</i> &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp;</span>
+  <span>☕ <b>2027 rent increase guideline:</b> 1.9% &nbsp;•&nbsp; <b>N12 compensation:</b> 1 month's rent, or none with 120+ days' notice &nbsp;•&nbsp; <b>N4 earliest termination:</b> 7 days &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp; ☕ <b>2027 rent increase guideline:</b> 1.9% &nbsp;•&nbsp; <b>N12 compensation:</b> 1 month's rent, or none with 120+ days' notice &nbsp;•&nbsp; <b>N4 earliest termination:</b> 7 days &nbsp;•&nbsp; <b>Guideline notice (N1):</b> 90 days &nbsp;•&nbsp; <b>Post-Nov 2018 units:</b> exempt from the guideline &nbsp;•&nbsp;</span>
 </div>
 
 <main>
@@ -382,17 +381,18 @@
       </div>
 
       <figure class="ledger" aria-labelledby="ledger-title">
-        <div class="ledger-head"><h2 id="ledger-title">Ontario landlord numbers</h2><span>Verified <time datetime="2026-09-10">Sept 10, 2026</time></span></div>
+        <div class="ledger-head"><h2 id="ledger-title">Ontario landlord numbers</h2><span>Verified <time datetime="2026-11-15">Nov 15, 2026</time></span></div>
         <table><tbody>
-          <tr><td>2026 rent increase guideline</td><td><em>2.1%</em></td></tr>
+          <tr><td>2027 rent increase guideline</td><td><em>1.9%</em></td></tr>
           <tr><td>Notice for a guideline increase (N1)</td><td>90 days</td></tr>
-          <tr><td>Earliest termination on an N4 (monthly)</td><td><b class="chg">14 days</b></td></tr>
+          <tr><td>Earliest termination on an N4</td><td>7 days</td></tr>
           <tr><td>Notice for landlord's own use (N12)</td><td>60 days</td></tr>
-          <tr><td>Compensation owed with an N12</td><td><b class="chg">1 month's rent</b></td></tr>
+          <tr><td>N12 compensation, under 120 days' notice</td><td>1 month's rent</td></tr>
+          <tr><td>N12 compensation, 120+ days' notice</td><td>Not required</td></tr>
           <tr><td>Units first occupied after Nov 15, 2018</td><td>Guideline exempt</td></tr>
           <tr><td>Deadline to request an LTB review</td><td>15 days</td></tr>
         </tbody></table>
-        <figcaption class="ledger-foot">The two underlined figures <a href="/ontario-bill-60-changes/">change on September&nbsp;21</a>. Subscribers get the new numbers the morning they take effect.</figcaption>
+        <figcaption class="ledger-foot">The N4 and N12 rules <a href="/ontario-bill-60-changes/">changed on September&nbsp;21, 2026</a>. When a number on this card changes, subscribers hear about it first.</figcaption>
       </figure>
     </div>
   </section>
@@ -420,7 +420,7 @@
           <div class="emoji" aria-hidden="true">📈</div>
           <h3>Numbers you'll actually use</h3>
           <p>Rents by city, vacancy rates, mortgage renewals, insurance and tax changes, and the annual guideline the second it drops, with the math already done.</p>
-          <p class="ex">"Guideline is 2.1% for 2026. On a $2,400 unit that's $50.40. Serve by Sept 30 for a Jan 1 bump."</p>
+          <p class="ex">"Guideline is 1.9% for 2027. On a $2,400 unit that's $45.60 a month."</p>
         </div>
         <div>
           <div class="emoji" aria-hidden="true">🧰</div>
