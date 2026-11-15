@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're subscribed | The Rent Roll</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/brand/rentroll-favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/brand/rentroll-mark-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/brand/rentroll-mark-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;1,6..72,500&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F7F8F3; --rule: #CFDCC9; --ink: #172420; --ink-soft: #4E5C55;
+    --green: #1F6B4E; --highlight: #FFD93D; --red: #D9463B; --white: #FFFFFF;
+    --serif: "Newsreader", Georgia, serif;
+    --sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    --radius: 12px; --pill: 999px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--sans); font-size: 17px; line-height: 1.6;
+    display: flex; flex-direction: column; min-height: 100vh;
+  }
+  .wrap { width: min(1080px, calc(100% - 3rem)); margin: 0 auto; }
+  a { color: var(--green); }
+  .site-header { border-bottom: 2px solid var(--ink); background: var(--white); }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .9rem 0; }
+  .brand { display: inline-flex; align-items: center; gap: .6rem; font-family: var(--serif); font-weight: 700; font-size: 1.35rem; color: var(--ink); text-decoration: none; letter-spacing: -0.015em; }
+  .brand-mark { width: 30px; height: 30px; display: block; }
+  main { flex: 1; display: flex; align-items: center; padding: 4rem 0 5rem; }
+  .code { font-family: var(--serif); font-size: 1rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 .8rem; }
+  h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.1; letter-spacing: -0.015em; margin: 0 0 1rem; max-width: 20ch; }
+  mark { background: linear-gradient(to top, var(--highlight) 37%, transparent 37%); color: inherit; padding: 0 .1em; }
+  .lead { font-size: 1.1rem; color: var(--ink-soft); max-width: 52ch; margin: 0 0 2rem; }
+  .btn { display: inline-block; background: var(--green); color: var(--white); font-weight: 700; text-decoration: none; padding: .8rem 1.5rem; border-radius: var(--pill); border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+  .btn:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--ink); }
+  .links { list-style: none; padding: 0; margin: 2.2rem 0 0; display: flex; flex-wrap: wrap; gap: 1.4rem; font-size: .95rem; }
+  .site-footer { border-top: 2px solid var(--rule); padding: 1.6rem 0 2.4rem; font-size: .85rem; color: var(--ink-soft); }
+  a:focus-visible, .btn:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { .btn:hover { transform: none; } }
+</style>
+<script>
+// Runs before the pixel. beehiiv's signup redirect lands here with a query
+// string; note that, then strip it so the subscription ID isn't sent to Meta.
+window.rrFromSignup = location.search.length > 1;
+if (window.rrFromSignup && window.history && history.replaceState) {
+  history.replaceState(null, '', location.pathname);
+}
+</script>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1109708365396498');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1109708365396498&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<script>
+// Count a signup only after a real beehiiv redirect, and once per session,
+// so reloads, bookmarks and direct visits don't inflate the number.
+(function () {
+  if (!window.rrFromSignup) return;
+  try {
+    if (sessionStorage.getItem('rr_lead_sent')) return;
+    sessionStorage.setItem('rr_lead_sent', '1');
+  } catch (e) {}
+  fbq('track', 'Lead');
+})();
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="The Rent Roll home"><svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <defs><clipPath id="tsm"><rect width="100" height="100" rx="14.16" ry="14.16"/></clipPath></defs>
+        <rect width="100" height="100" rx="14.16" ry="14.16" fill="#FFD93D"/>
+        <rect width="25" height="100" fill="#D9463B" clip-path="url(#tsm)"/>
+        <rect x="3.54" y="3.54" width="92.92" height="92.92" rx="10.62" ry="10.62" fill="none" stroke="#172420" stroke-width="7.08"/>
+      </svg>The Rent Roll</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="code">Subscribed</p>
+    <h1>You're in. <mark>See you Wednesday.</mark></h1>
+    <p class="lead">The Rent Roll lands in your inbox every Wednesday at 6:30&nbsp;a.m. Ontario rule changes, Landlord and Tenant Board news and the numbers that matter, in five minutes.</p>
+    <p class="lead">One small favour: add The Rent Roll to your contacts, so the first issue doesn't end up in spam or a promotions tab.</p>
+    <a class="btn" href="/ontario-bill-60-changes/">Read what changed on September 21</a>
+    <ul class="links">
+      <li><a href="/">Back to The Rent Roll</a></li>
+      <li><a href="/#faq">FAQ</a></li>
+      <li><a href="/privacy/">Privacy Policy</a></li>
+      <li><a href="mailto:hello@therentroll.ca">hello@therentroll.ca</a></li>
+    </ul>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    General information, not legal advice. Talk to a licensed paralegal or lawyer about your situation. &copy; 2026 The Rent Roll.
+  </div>
+</footer>
+
+</body>
+</html>
